@@ -10,7 +10,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const line =
-  "I’m going to put you on hold for five minutes so we can both just sit quietly and accept that it’s gone.";
+  "I'm escalating your case to our specialist team now, sir — they're me, in a different chair, with a taller mug.";
 
 const outDir = process.env.OUTPUT_DIR ?? "/output";
 const outFile = join(outDir, "entry.txt");
